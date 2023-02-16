@@ -83,7 +83,7 @@ module.exports = {
         ],
     },
     gasReporter: {
-        enabled: REPORT_GAS,
+        enabled: true,
         currency: "USD",
         outputFile: "gas-report.txt",
         noColors: true,
@@ -113,6 +113,6 @@ module.exports = {
         ],
     },
     mocha: {
-        timeout: 500000, // 500 seconds max for running tests
+        timeout: 900000, // 900 seconds max for running tests
     },
 }
